@@ -1,2 +1,2 @@
 # July-LeetCode
-This repository is having coding provlems of Leetcode - July month challenge 
+This repository is having coding problems of Leetcode - July month challenge 
