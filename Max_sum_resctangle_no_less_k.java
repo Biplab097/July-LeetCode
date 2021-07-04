@@ -29,7 +29,7 @@ public int maxSumSubmatrix(int[][] matrix, int k) {
                 currSum += sum;
                 //we use sum subtraction (curSum - sum) to get the subarray with sum <= k
                 //therefore we need to look for the smallest sum >= currSum - k
-                Integer num = set.ceiling(currSum - k);
+                Integer num = set.ceiling(currSum - k);  // here num>=currSum-k: i.e: k>=currSum-num. 
                 if(num != null) result = Math.max( result, currSum - num );
                 set.add(currSum);
             }
